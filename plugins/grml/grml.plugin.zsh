@@ -545,9 +545,6 @@ export PAGER=${PAGER:-less}
 #v#
 export MAIL=${MAIL:-/var/mail/$USER}
 
-# if we don't set $SHELL then aterm, rxvt,.. will use /bin/sh or /bin/bash :-/
-export SHELL='/bin/zsh'
-
 # color setup for ls:
 check_com -c dircolors && eval $(dircolors -b)
 # color setup for ls on OS X / FreeBSD:
